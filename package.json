@@ -26,6 +26,7 @@
     "materialize-css": "^1.0.0"
   },
   "devDependencies": {
+    "bootstrap": "^5.2.2",
     "gh-pages": "^4.0.0",
     "parcel": "^2.7.0"
   }
