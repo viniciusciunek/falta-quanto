@@ -1,0 +1,32 @@
+{
+  "name": "falta-quanto",
+  "version": "1.0.0",
+  "description": "<link>",
+  "scripts": {
+    "start": "parcel index.html",
+    "build:parcel": "parcel build index.html --public-url /falta-quanto",
+    "build": "npm run clean:windows && npm run build:parcel",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "clean:linux": "rm -rf dist/*",
+    "clean:windows": "rd /s/q dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciusciunek/falta-quanto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viniciusciunek/falta-quanto/issues"
+  },
+  "homepage": "https://github.com/viniciusciunek/falta-quanto#readme",
+  "dependencies": {
+    "jquery": "^3.6.1",
+    "materialize-css": "^1.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "parcel": "^2.7.0"
+  }
+}
