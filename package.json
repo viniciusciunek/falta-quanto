@@ -1,7 +1,7 @@
 {
   "name": "falta-quanto",
   "version": "1.0.0",
-  "description": "<link>",
+  "description": "",
   "scripts": {
     "start": "parcel index.html",
     "build:parcel": "parcel build index.html --public-url /falta-quanto",
